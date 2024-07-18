@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
         return pallet[random];
     }
     btn.addEventListener("click" , function(){
-        getRandomColor()
         colorBox.style.backgroundColor = getRandomColor();
     })
 })
